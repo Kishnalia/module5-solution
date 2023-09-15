@@ -13,15 +13,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   var dc = {};
 
-  var homeHtmlUrl = "snippets/home-snippet.html";
+  var homeHtmlUrl = "assignment5/assignment5-solution-starter/snippets/home-snippet.html";
   var allCategoriesUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
-  var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-  var categoryHtml = "snippets/category-snippet.html";
+  var categoriesTitleHtml = "assignment5/assignment5-solution-starter/snippets/categories-title-snippet.html";
+  var categoryHtml = "assignment5/assignment5-solution-starter/snippets/category-snippet.html";
   var menuItemsUrl =
     "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
-  var menuItemsTitleHtml = "snippets/menu-items-title.html";
-  var menuItemHtml = "snippets/menu-item.html";
+  var menuItemsTitleHtml = "assignment5/assignment5-solution-starter/snippets/menu-items-title.html";
+  var menuItemHtml = "assignment5/assignment5-solution-starter/snippets/menu-item.html";
 
   // Convenience function for inserting innerHTML for 'select'
   var insertHtml = function (selector, html) {
